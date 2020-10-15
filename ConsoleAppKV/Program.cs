@@ -16,6 +16,7 @@ namespace ConsoleAppKV
         {
             while (true)
             {
+                Console.WriteLine();
                 Console.Write("Kenen tietoja haetaan?( tyhjä lopettaa sovelluksen ): ");
 
                 // the assumption is that the target files are all lower case
@@ -27,7 +28,7 @@ namespace ConsoleAppKV
                 }
 
                 // NOTE: change path! - needs to be a path to this project's solution
-                string filePath = @"C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV";
+                string filePath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
 
                 // custom class
                 PersonFileReader personFileReader = new PersonFileReader(fileName, filePath);

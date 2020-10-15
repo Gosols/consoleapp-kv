@@ -22,26 +22,6 @@ namespace FileHandling
             answers = new List<string>();
         }
 
-        public string getFileName() // unused in this app
-        {
-            return fileName;
-        }
-
-        public void setFileName(string newName) // unused in this app
-        {
-            this.fileName = newName;
-        }
-
-        public string getPath() // unused in this app
-        {
-            return path;
-        }
-
-        public void setPath(string newPath) // unused in this app
-        {
-            this.path = newPath;
-        }
-
         public List<string> getOptions()
         {
             return this.options;
