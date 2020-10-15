@@ -1,0 +1,6 @@
+nimi: Teemu Aleksi Kosonen
+ikä: 25 vuotta
+pituus: 190 cm
+kuvaus: Hieno mies!
+paino: 78 kg
+koulutus: Haaga-Helia AMK (tietojenkäsittely)

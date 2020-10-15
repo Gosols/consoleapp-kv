@@ -1,0 +1,7 @@
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\bin\Debug\ConsoleAppKV.exe.config
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\bin\Debug\ConsoleAppKV.exe
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\bin\Debug\ConsoleAppKV.pdb
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\obj\Debug\ConsoleAppKV.csprojAssemblyReference.cache
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\obj\Debug\ConsoleAppKV.csproj.CoreCompileInputs.cache
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\obj\Debug\ConsoleAppKV.exe
+C:\Users\teemu\OneDrive\Desktop\sooloilu\ConsoleAppKV\ConsoleAppKV\obj\Debug\ConsoleAppKV.pdb
