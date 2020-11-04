@@ -32,7 +32,7 @@ namespace ConsoleAppKV
 
                 // custom class
                 PersonFileReader personFileReader = new PersonFileReader(fileName, filePath);
-                string[] linesOfTheFile = personFileReader.readFile();
+                string[] linesOfTheFile = personFileReader.ReadFile();
 
                 // if the reader didn't find any matches...
                 if (linesOfTheFile.Length == 0)
@@ -42,14 +42,14 @@ namespace ConsoleAppKV
                     continue;
                 }
                 // saves the options and the answers to their own variables inside the class
-                personFileReader.setOptionsAndAnswers(linesOfTheFile);
+                personFileReader.SetOptionsAndAnswers(linesOfTheFile);
 
-                Console.Write("Mitä haluat tietää? (" + personFileReader.optionsToString() + "): ");
+                Console.Write("Mitä haluat tietää? (" + personFileReader.OptionsToString() + "): ");
                 string whatInfoToSearch = Console.ReadLine().ToLower();
 
                 // variables for cleaner code
-                List<string> answers = personFileReader.getAnswers();
-                List<string> options = personFileReader.getOptions();
+                List<string> answers = personFileReader.GetAnswers();
+                List<string> options = personFileReader.GetOptions();
 
                 try
                 {

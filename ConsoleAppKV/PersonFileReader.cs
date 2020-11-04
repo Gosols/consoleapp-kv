@@ -22,27 +22,27 @@ namespace FileHandling
             answers = new List<string>();
         }
 
-        public List<string> getOptions()
+        public List<string> GetOptions()
         {
             return this.options;
         }
 
-        private void setOptions(List<string> options)
+        private void SetOptions(List<string> options)
         {
             this.options = options;
         }
 
-        public List<string> getAnswers()
+        public List<string> GetAnswers()
         {
             return this.answers;
         }
 
-        private void setAnswers(List<string> answers)
+        private void SetAnswers(List<string> answers)
         {
             this.answers = answers;
         }
 
-        public void setOptionsAndAnswers(string[] fileLines)
+        public void SetOptionsAndAnswers(string[] fileLines)
         // readFile() needs to be called before this function to get fileLines
         {
             /*
@@ -67,13 +67,13 @@ namespace FileHandling
                 infoOptions.Add(lineParts[0]);
                 answers.Add(lineParts[1].Trim());
             }
-            setAnswers(answers);
-            setOptions(infoOptions);
+            SetAnswers(answers);
+            SetOptions(infoOptions);
         }
 
-        public string[] readFile() // returns an array of the text file's lines
+        public string[] ReadFile() // returns an array of the text file's lines
         {
-            FileInfo[] filesInDir = searchForFiles();
+            FileInfo[] filesInDir = SearchForFiles();
             string[] linesOfTheFile = { };
 
             //if no files found...
@@ -91,7 +91,7 @@ namespace FileHandling
             }
         }
 
-        private FileInfo[] searchForFiles()
+        private FileInfo[] SearchForFiles()
         {
             DirectoryInfo DirectoryToSearch = new DirectoryInfo(this.path);
 
@@ -101,7 +101,7 @@ namespace FileHandling
             return filesInDir;
         }
 
-        public string optionsToString()
+        public string OptionsToString()
         // this function returns all possible info options as a string, separated by commas
 
         {
