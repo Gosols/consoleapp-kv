@@ -27,7 +27,7 @@ namespace ConsoleAppKV
                     break;
                 }
 
-                // NOTE: change path! - needs to be a path to this project's solution
+                // path should be relative
                 string filePath = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
 
                 // custom class
